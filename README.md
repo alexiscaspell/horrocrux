@@ -27,7 +27,7 @@ Clonar el proyecto de git o descargar en archivo .zip/.tar.gz y descomprimir
 - python 3.8 o superior
 
 
-## Despliegue
+## Uso
 
 En primera instancia es necesario tener las dependencias instaladas, estas se instalan de la sig. manera:
 ```
@@ -45,6 +45,18 @@ Para levantar el proyecto solo es necesario ejecutar:
 ```
 python project_generator.py unNombreDeProyecto unPath
 ```
+
+### Se mostrara una interfaz como la siguiente: 
+![alt text](img/interfaz1.png)
+
+- En el campo nombre se especifica el nombre del proyecto, luego en el listbox de plugins se deberia poder agregar plugins seleccionando cada uno y pulsando en el boton Add.
+- Para configurar los plugins se tiene otro listbox de plugins seleccionados en el cual se puede seleccionar uno por uno cada plugin y borrarlo con el boton Delete o editarlo con el boton Edit
+- Si se quiere salir pulsar el boton Quit
+
+Luego de configurar todo se aprieta el boton Build y se deberia obtener algo parecido a esto:
+![alt text](img/interfaz2.png)
+
+Finalmente dentro de la carpeta docker se tendra una carpeta con el proyecto creado
 
 ## Parametros
 

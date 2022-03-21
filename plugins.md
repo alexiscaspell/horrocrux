@@ -12,6 +12,7 @@
 * [Copias](#copias)
 * [Borrados](#borrados)
 * [Reemplazos](#reemplazos)
+* [Plugins defaults](#defaults)
 * [Aclaraciones](#aclaraciones)
 
 ---
@@ -110,9 +111,16 @@ Un ejemplo seria:
         }]
 ```
 
+# Defaults
+Los plugins que vienen de forma default son:
+- **Repository binder**: Este plugin se encarga de bajar utils y templates para poder actualizar los demas plugins. 
+- **Variables**: Este plugin setea variables globales que luego se utilizan en la mayoria de los plugins (como por ejemplo la carpeta principal o el package principal.
+
 # Aclaraciones
 - Se puede programar la logica de un plugin en python insertando un archivo **index.py** en la carpeta del plugin y [sobrecargando](plugins-api.md) los metodos y clases necesarias para la instanciacion de este.
 - La ejecucion de los elementos del plugin se realizan en el siguiente orden: 
 
 ![alt text](img/execution_diagram.png)
+
+### [Volver](README.md)
 
