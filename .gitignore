@@ -1,0 +1,11 @@
+
+node_modules/*
+algo/
+
+apps/configs/__pycache__/
+
+*.pyc
+
+logs/
+
+venv/

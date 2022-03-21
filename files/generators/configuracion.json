@@ -1,0 +1,12 @@
+{
+    "path_plugin_principal": "plugins/base",
+    "ejecutar_plugin_principal_al_inicio": true,
+    "saltar_pre_validaciones":true,
+    "plugins": [],
+    "plugins_obligatorios": [
+        "repository-binder",
+        "variables"
+    ],
+    "id":"__builtin__",
+    "variables": ["path_proyecto","nombre_proyecto"]
+}

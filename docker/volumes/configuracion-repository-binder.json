@@ -1,0 +1,26 @@
+{
+    "descripcion": "REPOSITORY-BINDER",
+    "variables": [
+        {
+            "nombre": "usuarioGitlab",
+            "valor": "alexistaberna"
+        },
+        {
+            "nombre": "tokenGitlab",
+            "valor": "unapass"
+        }
+    ],
+    "repositorios": [
+        {
+            "nombre": "java-utils",
+            "habilitado": false,
+            "url": "https://@@usuarioGitlab:@@tokenGitlab@soyunaurldeunrepo -b unbranch",
+            "paths": [
+                {
+                    "path_desde": "soyelnombredelrepo",
+                    "path_hasta": "plugins/soyelnombredelrepo/proyecto"
+                }
+            ]
+        }
+    ]
+}

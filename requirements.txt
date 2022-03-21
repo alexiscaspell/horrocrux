@@ -1,0 +1,7 @@
+# DEPENDENCIAS
+
+bson
+psutil
+netifaces
+stringcase
+asciimatics

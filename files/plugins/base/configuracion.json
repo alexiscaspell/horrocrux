@@ -1,0 +1,33 @@
+{
+    "descripcion": "default",
+    "variables": [
+        {
+            "nombre": "nombre_proyecto_base",
+            "valor": "base"
+        }
+    ],
+    "copias": [
+        {
+            "path_desde": "@@path_proyecto/main/template",
+            "path_hasta": "main",
+            "mover": true
+        }
+    ],
+    "borrados": [
+        {
+            "path": "main/template"
+        }
+    ],
+    "reemplazos": [
+        {
+            "paths": [
+                "docker-compose.yml",
+                "Dockerfile",
+                "main/@@nombre_proyecto_base.py",
+                "README.md"
+            ],
+            "regex": "@@nombre_proyecto_base",
+            "texto": "@@nombre_proyecto"
+        }
+    ]
+}

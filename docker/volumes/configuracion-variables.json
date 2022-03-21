@@ -1,0 +1,15 @@
+{
+    "descripcion": "VARIABLES",
+    "menues": [
+        {
+            "texto": "Soy un texto del menu",
+            "resultado": "nombreVariableEjemplo",
+            "default": "@@unaVariableSeteadaEnOtroPlugin"
+        },
+        {
+            "texto": "Soy otro texto del menu",
+            "resultado": "nombreVariableEjemplo2",
+            "default": "unValor"
+        }
+    ]
+}
