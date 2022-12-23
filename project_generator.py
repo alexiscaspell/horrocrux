@@ -1,6 +1,6 @@
 import sys
-from horrocrux.models.generador import GeneradorProyecto
-from horrocrux.models.menu import ejecutar_menu
+from src.horrocrux.models.generador import GeneradorProyecto
+from src.horrocrux.models.menu import ejecutar_menu
 
 if __name__ == "__main__":
 

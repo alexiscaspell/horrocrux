@@ -20,12 +20,14 @@ RUN pip install -r requirements.txt
 RUN rm requirements.txt
 
 # COMPILACION
-ADD ./apps ./src/apps
-COPY ./project_generator.py ./src/project_generator.py
+ADD ./src ./app/src
+COPY ./project_generator.py ./app/project_generator.py
 ADD ./files ./files
 RUN mkdir descargas
 
-RUN python -m compile -b -f -o ./dist ./src
-RUN mv -f ./dist/src/* .
+RUN find ./app -type f -exec sed -i -e "s#import horrocrux.#import src.horrocrux.#g" -e "s#from horrocrux.#from src.horrocrux.#g" {} \;
 
-RUN rm -r ./src
+RUN python -m compile -b -f -o ./dist ./app
+RUN mv -f ./dist/app/* .
+
+RUN rm -r ./app
