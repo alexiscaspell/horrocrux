@@ -1,7 +1,7 @@
-from apps.models.plugin import Plugin, Copia, Borrado,mapear_elementos_a_objetos
+from horrocrux.models.plugin import Plugin, Copia, Borrado,mapear_elementos_a_objetos
 import os
 import json
-from apps.utils.file_util import path_join
+from horrocrux.utils.file_util import path_join
 
 CARPETA_DESCARGAS = "./descargas"
 

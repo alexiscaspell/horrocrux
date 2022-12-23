@@ -3,7 +3,7 @@ from functools import wraps
 
 from flask import jsonify
 
-from apps.utils.logger_util import get_logger
+from horrocrux.utils.logger_util import get_logger
 
 HTTP_STATUS_ERROR_NEGOCIO = 409
 

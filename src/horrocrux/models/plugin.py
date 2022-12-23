@@ -1,10 +1,10 @@
 import os
-from apps.models.yeoman import Yeoman
+from horrocrux.models.yeoman import Yeoman
 import re
-from apps.utils.file_util import path_join
+from horrocrux.utils.file_util import path_join
 import json
-from apps.models.menu import Menu
-from apps.models.app_model import AppModel,model_metadata
+from horrocrux.models.menu import Menu
+from horrocrux.models.app_model import AppModel,model_metadata
 
 class Copia :
 

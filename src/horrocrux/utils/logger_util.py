@@ -1,10 +1,10 @@
 import logging
 import os
 
-import apps.configs.configuration as conf
-from apps.configs.mapa_variables import APP_NAME
-from apps.configs.vars import Vars
-from apps.utils.file_util import make_directory_if_not_exists
+import horrocrux.configs.configuration as conf
+from horrocrux.configs.mapa_variables import APP_NAME
+from horrocrux.configs.vars import Vars
+from horrocrux.utils.file_util import make_directory_if_not_exists
 
 _DIRECTORIO_LOGS = conf.get(Vars.DIRECTORIO_LOGS)
 _NOMBRE_LOG_PREDEFINIDO = APP_NAME

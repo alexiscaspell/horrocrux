@@ -5,7 +5,7 @@ from asciimatics.screen import Screen
 from asciimatics.event import KeyboardEvent
 from asciimatics.exceptions import ResizeScreenError, NextScene, StopApplication
 import sys
-from apps.models.app_model import AppModel,model_metadata
+from horrocrux.models.app_model import AppModel,model_metadata
 import os
 
 class PluginModel(object):
@@ -57,7 +57,7 @@ class MenuView(Frame):
                                        data=model.form_data,
                                        hover_focus=True,
                                        can_scroll=False,
-                                       title="Generador de Proyectos")
+                                       title="Horrocrux")
         # Save off the model that accesses the plugins database.
         self._model = model
 

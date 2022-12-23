@@ -1,5 +1,5 @@
-from apps.utils.logger_util import get_logger
-from apps.models.exception import AppException
+from horrocrux.utils.logger_util import get_logger
+from horrocrux.models.exception import AppException
 from flask import Blueprint, jsonify, request
 from http import HTTPStatus
 

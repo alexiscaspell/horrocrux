@@ -1,9 +1,9 @@
-from apps.models.yeoman import Yeoman
-from apps.models.plugin import Plugin
+from horrocrux.models.yeoman import Yeoman
+from horrocrux.models.plugin import Plugin
 from typing import List, Dict
-from apps.utils.file_util import path_join,is_dir,delete_file,path_exists
-from apps.models.plugin import Builder
-from apps.models.app_model import AppModel,model_metadata
+from horrocrux.utils.file_util import path_join,is_dir,delete_file,path_exists
+from horrocrux.models.plugin import Builder
+from horrocrux.models.app_model import AppModel,model_metadata
 import ntpath
 
 @model_metadata({})

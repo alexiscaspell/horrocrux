@@ -3,9 +3,9 @@ import shutil
 import glob
 import re
 import json
-import apps.utils.file_util as fu
-from apps.utils.logger_util import get_logger
-from apps.models.app_model import AppModel,model_metadata
+import horrocrux.utils.file_util as fu
+from horrocrux.utils.logger_util import get_logger
+from horrocrux.models.app_model import AppModel,model_metadata
 from enum import Enum
 from typing import List,Dict
 

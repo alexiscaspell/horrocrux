@@ -1,8 +1,8 @@
 import os
 from enum import Enum
 
-import apps.configs.mapa_variables as mapa_variables
-from apps.configs.mapa_variables import ENVIRONMENT_MODE, NO_MOSTRAR, APP_NAME
+import horrocrux.configs.mapa_variables as mapa_variables
+from horrocrux.configs.mapa_variables import ENVIRONMENT_MODE, NO_MOSTRAR, APP_NAME
 
 
 def _get_mapa_variables():
